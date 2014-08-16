@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     
     var api: String = ""
+    let city = "Taipei"
                             
     override func viewDidLoad() {
         super.viewDidLoad()
