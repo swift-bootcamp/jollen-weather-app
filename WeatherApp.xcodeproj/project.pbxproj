@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B20AB71199F2FCB00656A14 /* rainy.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B20AB70199F2FCB00656A14 /* rainy.png */; };
+		3B20AB73199F326C00656A14 /* Rainy-Wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B20AB72199F326C00656A14 /* Rainy-Wallpaper.jpg */; };
 		3B6F7C12199F1EDB00CF7C2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6F7C11199F1EDB00CF7C2D /* AppDelegate.swift */; };
 		3B6F7C14199F1EDB00CF7C2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6F7C13199F1EDB00CF7C2D /* ViewController.swift */; };
 		3B6F7C17199F1EDB00CF7C2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B6F7C15199F1EDB00CF7C2D /* Main.storyboard */; };
@@ -25,6 +27,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B20AB70199F2FCB00656A14 /* rainy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rainy.png; sourceTree = "<group>"; };
+		3B20AB72199F326C00656A14 /* Rainy-Wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Rainy-Wallpaper.jpg"; sourceTree = "<group>"; };
 		3B6F7C0C199F1EDB00CF7C2D /* WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B6F7C10199F1EDB00CF7C2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B6F7C11199F1EDB00CF7C2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +79,8 @@
 		3B6F7C0E199F1EDB00CF7C2D /* WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				3B20AB72199F326C00656A14 /* Rainy-Wallpaper.jpg */,
+				3B20AB70199F2FCB00656A14 /* rainy.png */,
 				3B6F7C11199F1EDB00CF7C2D /* AppDelegate.swift */,
 				3B6F7C13199F1EDB00CF7C2D /* ViewController.swift */,
 				3B6F7C15199F1EDB00CF7C2D /* Main.storyboard */,
@@ -190,6 +196,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B6F7C17199F1EDB00CF7C2D /* Main.storyboard in Resources */,
+				3B20AB71199F2FCB00656A14 /* rainy.png in Resources */,
+				3B20AB73199F326C00656A14 /* Rainy-Wallpaper.jpg in Resources */,
 				3B6F7C19199F1EDB00CF7C2D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,6 +405,7 @@
 				3B6F7C2A199F1EDC00CF7C2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B6F7C2B199F1EDC00CF7C2D /* Build configuration list for PBXNativeTarget "WeatherAppTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +414,7 @@
 				3B6F7C2D199F1EDC00CF7C2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

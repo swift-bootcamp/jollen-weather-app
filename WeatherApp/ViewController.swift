@@ -11,11 +11,18 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet var city: UILabel
+    @IBOutlet var icon: UIImageView
                             
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // background image
+        let background = UIImage(named: "Rainy-Wallpaper.jpg")
+        self.view.backgroundColor = UIColor(patternImage: background)
+        
         // Do any additional setup after loading the view, typically from a nib.
         self.city.text = "Taipei"
+        self.icon.image = UIImage(named: "rainy")
     }
 
     override func didReceiveMemoryWarning() {
