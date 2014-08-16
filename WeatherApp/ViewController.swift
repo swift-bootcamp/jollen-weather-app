@@ -10,12 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var api: String = ""
-    let city = "Taipei"
+    @IBOutlet var city: UILabel
                             
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        self.city.text = "Taipei"
     }
 
     override func didReceiveMemoryWarning() {
