@@ -33,7 +33,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wg2-cO-UAw">
-                                <rect key="frame" x="64" y="69" width="212" height="68"/>
+                                <rect key="frame" x="64" y="69" width="166" height="68"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="textColor" red="0.89582625679347827" green="0.89582625679347827" blue="0.89582625679347827" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -41,6 +41,12 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jyv-Dr-Wmu">
                                 <rect key="frame" x="64" y="165" width="240" height="177"/>
                             </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5La-bh-oih">
+                                <rect key="frame" x="196" y="114" width="207" height="43"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -55,8 +61,9 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="city" destination="wg2-cO-UAw" id="Bbb-Km-ViW"/>
+                        <outlet property="city" destination="wg2-cO-UAw" id="v0y-CG-wLH"/>
                         <outlet property="icon" destination="jyv-Dr-Wmu" id="BKj-Js-Miv"/>
+                        <outlet property="temperature" destination="5La-bh-oih" id="ei7-jd-arR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
