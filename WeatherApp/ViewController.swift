@@ -54,7 +54,7 @@ class ViewController: UIViewController, NSURLConnectionDelegate {
     func connection(connection: NSURLConnection!, didReceiveData dataReceived: NSData!) {
         println("downloading")
         
-        self.data.appendData(dataReceived)
+        self.data.setData(dataReceived)
     }
     
     // 下載完成
