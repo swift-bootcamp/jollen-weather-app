@@ -28,9 +28,14 @@ class ViewController: UIViewController, NSURLConnectionDelegate {
         self.city.text = "Taipei"
         self.icon.image = UIImage(named: "rainy")
         
-        startConnection()
+        let singleFingerTap = UITapGestureRecognizer(target: self, action: "handleSingleTap:")
+        self.view.addGestureRecognizer(singleFingerTap)
     }
 
+    func handleSingleTap(recognizer: UITapGestureRecognizer) {
+        startConnection()
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
